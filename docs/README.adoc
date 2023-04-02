@@ -1,6 +1,14 @@
 = asciidoctor-reducer-test
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 
 Just some text to test, if after `asciidoctor-reducer` workflow the `ifdef` statement is gone.
+Hopefully now it works that `--preserve-conditionals` was added to the `run` command.
 
 [WARNING]
 ====
