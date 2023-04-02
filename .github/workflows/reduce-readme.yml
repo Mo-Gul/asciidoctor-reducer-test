@@ -13,7 +13,7 @@ jobs:
     - name: Install Asciidoctor Reducer
       run: sudo gem install asciidoctor-reducer
     - name: Reduce README
-      run: asciidoctor-reducer -o docs/README.adoc docs/README-source.adoc
+      run: asciidoctor-reducer --preserve-conditionals -o docs/README.adoc docs/README-source.adoc
     - name: Commit and Push README
       uses: EndBug/add-and-commit@v9
       with:
