@@ -8,6 +8,7 @@ ifdef::env-github[]
 endif::[]
 
 Just some text to test, if after `asciidoctor-reducer` workflow the `ifdef` statement is gone.
+Hopefully now it works that `--preserve-conditionals` was added to the `run` command.
 
 [WARNING]
 ====
